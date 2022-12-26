@@ -2,10 +2,12 @@
 
 import { qwikify$ } from '@builder.io/qwik-react';
 import { Button, Slider } from '@mui/material';
+import { IconButton } from '@itwin/itwinui-react/cjs';
 import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
 
 export const MUIButton = qwikify$(Button);
 export const MUISlider = qwikify$(Slider, { eagerness: 'hover' });
+export const IUIIconButton = qwikify$(IconButton);
 
 export const TableApp = qwikify$(() => {
   const columns: GridColDef[] = [

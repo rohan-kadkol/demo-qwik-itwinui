@@ -1,6 +1,6 @@
 import { component$, useSignal } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
-import { MUIButton, MUISlider, TableApp } from '~/integrations/react/mui';
+import { IUIIconButton, MUIButton, MUISlider, TableApp } from '~/integrations/react/mui';
 
 export default component$(() => {
   const show = useSignal(false);
@@ -31,6 +31,8 @@ export default component$(() => {
       <MUIButton variant={variant.value} host:onClick$={() => alert('click')}>
         Slider is {count.value}
       </MUIButton>
+
+      <IUIIconButton>Sample</IUIIconButton>
 
       <button onClick$={() => (show.value = true)}>Show table</button>
       {show.value && <TableApp client:visible>Slider is {count.value}</TableApp>}
