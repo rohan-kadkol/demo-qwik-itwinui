@@ -1,3 +1,11 @@
+# Demo Qwik app with iTwinUI-react
+
+This is a sample repo I created to test adding iTwinUI-react to a Qwik app. The errors I encountered are listed in [discussion #934](https://github.com/iTwin/iTwinUI/discussions/934) in the [iTwinUI GitHub repo](https://github.com/iTwin/iTwinUI/)
+
+Below is the default README created by Qwik.
+
+---
+
 # Qwik City App ⚡️
 
 - [Qwik Docs](https://qwik.builder.io/)
