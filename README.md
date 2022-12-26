@@ -3,6 +3,7 @@
 This is a sample repo I created to test adding iTwinUI-react to a [Qwik app](https://qwik.builder.io/). The errors I encountered are listed in [discussion #934](https://github.com/iTwin/iTwinUI/discussions/934) in the [iTwinUI GitHub repo](https://github.com/iTwin/iTwinUI/)
 
 Changes made:
+* Ran `npm create qwik@latest` to create a starter Qwik app.
 * Ran `npm run qwik add react` as mentioned in the [Qwik React integration docs](https://qwik.builder.io/integrations/integration/react/).
 * Installed `@itwin/itwinui-react 2.2.0` from npm.
 * Added `IUIIconButton` in `src/integration/react/mui.tsx`
