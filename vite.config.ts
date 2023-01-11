@@ -6,6 +6,9 @@ import { qwikReact } from "@builder.io/qwik-react/vite";
 
 export default defineConfig(() => {
   return {
+    ssr: {
+      noExternal: ["@itwin/itwinui-react", "@itwin/itwinui-css"],
+    },
     plugins: [qwikCity(), qwikVite(), tsconfigPaths(), qwikReact()],
     preview: {
       headers: {
